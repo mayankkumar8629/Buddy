@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3003'; // Change to your chatbot backend URL
+const API_BASE_URL = 'https://buddy-aw09.onrender.com'; // Change to your chatbot backend URL
 // const API_BASE_URL = 'http://localhost:3003'; 
 
 const api = axios.create({

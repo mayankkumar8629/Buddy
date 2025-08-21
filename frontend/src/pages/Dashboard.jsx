@@ -20,7 +20,7 @@ export default function Dashboard() {
   const [loadingSessions, setLoadingSessions] = useState(false);
   const [loadingSession, setLoadingSession] = useState(false);
 
-  const API_BASE_URL = 'http://localhost:3003';
+  const API_BASE_URL = 'https://buddy-aw09.onrender.com';
 
   const getAuthToken = () => {
     return localStorage.getItem('token');

@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
-  origin: ['https://jigsaw-pi.vercel.app', 'http://localhost:5173'], // Your frontend URLs
+  origin: ['https://buddy-ochre-theta.vercel.app/', 'http://localhost:5173'], // Your frontend URLs
   credentials: true // Required for cookies
 }));
 
